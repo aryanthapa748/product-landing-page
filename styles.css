@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    color: #F9FAF8;
+    background-color: rgb(201, 201, 161);
+    height: 50px;
+
+}
+
+#header-img{
+    height: 50px;
+    width: 100px;
+    margin-top: -5px;
+    
+}
+
+#nav-bar > ul {
+    display: flex;
+    gap: 35px;
+    margin: 0;
+    padding: 15px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: "SF Pro Text", "SF Pro Icons", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+
+.containerOne{
+    margin-top: 40px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    background-color: black;
+    color: #a89e70;
+}
+
+#form{
+    margin: 20px auto -10px auto;
+}
+
+.icon > img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.containerAbout{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: #ffffff;
+    padding-top: 55px;
+        
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.desc, .desc > ul{
+    margin-top: 10px;
+}
+
+.capacity{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: antiquewhite;
+    padding-top: 55px;
+}
+
+.capacityLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.capacityLogo > img{
+    margin-right: 12px;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    color: azure;
+    background-color: black;
+    padding-top: 55px;
+}
+
+.displayLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayLogo > img {
+    height: 55px;
+    width: 55px;
+    margin-right: 7px;
+}
+
+.displayDesc, .displayDesc > * {
+    margin: 15px auto;
+}
+
+.chip{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: beige;
+    padding: 55px;
+}
+
+.chipLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.chipLogo > img {
+    height: 65px;
+    width: 65px;
+    margin-right: 12px;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: burlywood;
+    padding-top: 55px;
+}
+
+.priceLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.priceLogo > img{
+    height: 45px;
+    width: 45px;
+    margin-right: 12px;
+}
+
+.logoDesc > *{
+    margin: 18px auto;
+    
+}
+
+#generalprice{
+    border:3px solid grey;
+    padding:12px;
+    width:250px;
+    border-radius:50px 25px;
+  }
+  
+  #t56gb{
+    border:3px solid grey;
+    padding:14px;
+    width:185px;
+    border-radius:50px 25px;
+  }
+  
+  #f12gb{
+    border:3px solid grey;
+    padding:14px;
+    width:185px;
+    border-radius:50px 25px;
+  }
+  
+  #otb{
+    border:3px solid grey;
+    padding:14px;
+    width:185px;
+    border-radius:50px 25px;
+  }
+
+  #trailer{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: beige;
+  }
+
+  #trailer > h2{
+    margin-bottom : 15px;
+  }
